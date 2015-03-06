@@ -5,7 +5,7 @@ Silly Note: if anyone could help me publish this to NPM that'd be great! hehe
 ### to install from git
 ```
 git clone https://github.com/joshuaterrill/greenlife-api.git
-cd greenlife-api.git
+cd greenlife-api
 npm install
 ```
 
