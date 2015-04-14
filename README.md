@@ -1,6 +1,5 @@
 # greenlife-api
-a simple API written in NodeJS for Green Life Medical's patient verification system.
-Silly Note: if anyone could help me publish this to NPM that'd be great! hehe
+a simple API written in NodeJS for Green Life Medical's patient verification system. ***They do not endorse nor verify the correctness of this code.***
 
 ### to install from git
 ```
