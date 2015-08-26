@@ -1,6 +1,6 @@
 {
   "name": "greenlife-api",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "a nodejs api for verifying Green Life Medical Marijuana recommendation ID's",
   "main": "index.js",
   "dependencies": {
