@@ -16,8 +16,25 @@ npm install
 
 ### usage (updates for npm package)
 ```
-var greenLifeVerify = require('greenlife-api');
-greenLifeVerify.verify("583276182");
+var greenlife = require('greenlife-api');
+greenlife.verify('0123456789', function (err, valid, details) {
+  if (err) {
+    // handle error
+  }
+  
+  if (valid) {
+    // recommendation is valid and details are available
+  } else {
+    // recommendation id is not valid
+  }
+});
 ```
+
+If the Recommendation ID is invalid, `details` will be `undefined`, otherwise it will be an object with the following properties.
+
+`initials`: The initials of the patient (e.g. A.B.C).
+`issued`: The YYYY-MM-DD formatted date the card was issued to the patient.  
+`expires`: The YYYY-MM-DD formatted date the card will expire.  
+`doctor`: The name of the doctor that issued the recommendation.
 
 License: MIT
